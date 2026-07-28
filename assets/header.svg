@@ -1,0 +1,71 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="20" x2="1120" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.5" stop-color="#111936"/>
+      <stop offset="1" stop-color="#10142A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="196" y1="75" x2="958" y2="298" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.48" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1032 72) rotate(136) scale(368 270)">
+      <stop stop-color="#7C3AED" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(142 328) rotate(-38) scale(403 283)">
+      <stop stop-color="#0891B2" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-80" y="-80" width="1360" height="520" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <g filter="url(#blur)">
+    <ellipse cx="1032" cy="72" rx="300" ry="210" fill="url(#glowA)"/>
+    <ellipse cx="142" cy="328" rx="332" ry="224" fill="url(#glowB)"/>
+  </g>
+
+  <g opacity="0.14" stroke="#A5B4FC">
+    <path d="M0 74H1200"/>
+    <path d="M0 286H1200"/>
+    <path d="M146 0V360"/>
+    <path d="M1054 0V360"/>
+  </g>
+
+  <circle cx="92" cy="78" r="7" fill="#22D3EE"/>
+  <circle cx="1130" cy="282" r="7" fill="#F472B6"/>
+  <path d="M78 101H218" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+
+  <text x="78" y="162" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="750" letter-spacing="-1.8">
+    Mayank Rawat
+  </text>
+  <text x="81" y="207" fill="#C4B5FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="1.2">
+    FULL-STACK DEVELOPER
+  </text>
+  <text x="81" y="252" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21">
+    Building practical products across interfaces, APIs, data, and deployment.
+  </text>
+
+  <g transform="translate(80 286)">
+    <rect width="690" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.11"/>
+    <text x="22" y="26" fill="#E2E8F0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="0.6">
+      JAVA  •  SPRING BOOT  •  REACT  •  TYPESCRIPT  •  POSTGRESQL  •  PYTHON
+    </text>
+  </g>
+
+  <g transform="translate(918 113)">
+    <rect width="204" height="118" rx="22" fill="#FFFFFF" fill-opacity="0.055" stroke="url(#accent)" stroke-opacity="0.65"/>
+    <path d="M46 76L72 50L94 70L132 32L160 60" stroke="url(#accent)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="46" cy="76" r="6" fill="#22D3EE"/>
+    <circle cx="72" cy="50" r="6" fill="#67E8F9"/>
+    <circle cx="94" cy="70" r="6" fill="#A78BFA"/>
+    <circle cx="132" cy="32" r="6" fill="#C084FC"/>
+    <circle cx="160" cy="60" r="6" fill="#F472B6"/>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="358" rx="27" stroke="url(#accent)" stroke-opacity="0.38" stroke-width="2"/>
+</svg>
