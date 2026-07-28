@@ -84,15 +84,10 @@ I'm a full-stack developer focused on building useful, dependable products—not
   <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
 </p>
 
-## GitHub at a glance
+## Engineering focus
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mayank2OP&theme=tokyonight" alt="Mayank's GitHub contribution summary" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mayank2OP&theme=tokyonight" alt="Repositories by language" width="49%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mayank2OP&theme=tokyonight&utcOffset=5.5" alt="Productive time" width="49%" />
+  <img src="./assets/engineering-focus.svg" alt="Backend, frontend, and product delivery engineering focus" width="100%" />
 </p>
 
 ---
