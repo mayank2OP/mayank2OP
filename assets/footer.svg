@@ -1,0 +1,16 @@
+<svg width="1200" height="26" viewBox="0 0 1200 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="line" x1="0" y1="13" x2="1200" y2="13" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="0.8" stop-color="#F472B6"/>
+      <stop offset="1" stop-color="#F472B6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect y="11" width="1200" height="4" rx="2" fill="url(#line)" opacity="0.65"/>
+  <rect y="10" width="180" height="6" rx="3" fill="url(#line)">
+    <animate attributeName="x" values="-180;1200" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
