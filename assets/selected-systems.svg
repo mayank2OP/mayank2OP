@@ -1,0 +1,83 @@
+<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="330">
+      <stop stop-color="#080D18"/>
+      <stop offset=".5" stop-color="#0B1325"/>
+      <stop offset="1" stop-color="#101224"/>
+    </linearGradient>
+    <radialGradient id="b1"><stop stop-color="#78A9FF" stop-opacity=".32"/><stop offset="1" stop-color="#78A9FF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b2"><stop stop-color="#8D82EA" stop-opacity=".28"/><stop offset="1" stop-color="#8D82EA" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b3"><stop stop-color="#DDA56F" stop-opacity=".24"/><stop offset="1" stop-color="#DDA56F" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#B6CDFF" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="1" y="1" width="1198" height="328" rx="25" fill="url(#bg)" stroke="#91B5FF" stroke-opacity=".22" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="328" rx="25" fill="url(#grid)"/>
+
+  <g transform="translate(28 28)">
+    <rect width="362" height="274" rx="20" fill="#78A9FF" fill-opacity=".04" stroke="#78A9FF" stroke-opacity=".26"/>
+    <ellipse cx="280" cy="78" rx="150" ry="130" fill="url(#b1)"/>
+    <text x="22" y="30" fill="#78A9FF" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="8" letter-spacing="1.4">01 / LIVE SYSTEM</text>
+    <text x="22" y="78" fill="#F6F8FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="720" letter-spacing="-1.2">SpendSnap</text>
+    <text x="22" y="106" fill="#A9B6C9" font-family="Georgia,serif" font-size="16" font-style="italic">Money, made clear.</text>
+    <circle cx="277" cy="161" r="63" stroke="#78A9FF" stroke-opacity=".28"/>
+    <circle cx="277" cy="161" r="45" stroke="#78A9FF" stroke-opacity=".42" stroke-dasharray="4 6">
+      <animateTransform attributeName="transform" type="rotate" values="0 277 161;360 277 161" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <text x="277" y="157" text-anchor="middle" fill="#7F91AB" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="6" letter-spacing="1">MONTH IN FOCUS</text>
+    <text x="277" y="179" text-anchor="middle" fill="#F6F8FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="750">PWA</text>
+    <text x="22" y="211" fill="#8594AA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">React · Spring Boot · PostgreSQL</text>
+    <line x1="22" y1="230" x2="340" y2="230" stroke="#FFFFFF" stroke-opacity=".1"/>
+    <circle cx="24" cy="251" r="4" fill="#78A9FF" filter="url(#glow)">
+      <animate attributeName="opacity" values=".3;1;.3" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="37" y="255" fill="#9AABC2" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="7" letter-spacing="1">AUTH · OCR · INSIGHTS</text>
+  </g>
+
+  <g transform="translate(419 28)">
+    <rect width="362" height="274" rx="20" fill="#8D82EA" fill-opacity=".035" stroke="#8D82EA" stroke-opacity=".28"/>
+    <ellipse cx="285" cy="78" rx="145" ry="128" fill="url(#b2)"/>
+    <text x="22" y="30" fill="#AFA7F5" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="8" letter-spacing="1.4">02 / AGENT SYSTEM</text>
+    <text x="22" y="78" fill="#F6F8FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="720" letter-spacing="-1.2">StockPilot</text>
+    <text x="22" y="106" fill="#B4ADD6" font-family="Georgia,serif" font-size="16" font-style="italic">Research without the noise.</text>
+    <circle cx="246" cy="155" r="16" fill="#15182E" stroke="#8D82EA" stroke-opacity=".55"/>
+    <circle cx="304" cy="135" r="16" fill="#15182E" stroke="#8D82EA" stroke-opacity=".55"/>
+    <circle cx="315" cy="194" r="16" fill="#15182E" stroke="#8D82EA" stroke-opacity=".55"/>
+    <path d="M261 150L288 141M310 151L314 178M260 163L300 189" stroke="#8D82EA" stroke-opacity=".45">
+      <animate attributeName="stroke-opacity" values=".2;.85;.2" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+    <text x="246" y="159" text-anchor="middle" fill="#DDD9FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="7" font-weight="700">R</text>
+    <text x="304" y="139" text-anchor="middle" fill="#DDD9FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="7" font-weight="700">K</text>
+    <text x="315" y="198" text-anchor="middle" fill="#DDD9FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="7" font-weight="700">S</text>
+    <text x="22" y="211" fill="#8594AA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">Next.js · FastAPI · Multi-agent analysis</text>
+    <line x1="22" y1="230" x2="340" y2="230" stroke="#FFFFFF" stroke-opacity=".1"/>
+    <circle cx="24" cy="251" r="4" fill="#8D82EA" filter="url(#glow)">
+      <animate attributeName="opacity" values=".3;1;.3" dur="2.5s" begin=".8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="37" y="255" fill="#9AABC2" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="7" letter-spacing="1">SIGNALS · RISK · SOURCES</text>
+  </g>
+
+  <g transform="translate(810 28)">
+    <rect width="362" height="274" rx="20" fill="#DDA56F" fill-opacity=".03" stroke="#DDA56F" stroke-opacity=".27"/>
+    <ellipse cx="285" cy="78" rx="145" ry="128" fill="url(#b3)"/>
+    <text x="22" y="30" fill="#E4B98F" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="8" letter-spacing="1.4">03 / BACKEND SYSTEM</text>
+    <text x="22" y="78" fill="#F6F8FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="720" letter-spacing="-1.2">LinkForge</text>
+    <text x="22" y="106" fill="#C8AD91" font-family="Georgia,serif" font-size="16" font-style="italic">Small links. Serious systems.</text>
+    <rect x="218" y="133" width="124" height="30" rx="8" fill="#FFFFFF" fill-opacity=".04" stroke="#DDA56F" stroke-opacity=".22"/>
+    <text x="232" y="152" fill="#8F9CB0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="7">LONG / URL / INPUT</text>
+    <path d="M280 164V186" stroke="#DDA56F" stroke-opacity=".5"/>
+    <circle cx="280" cy="174" r="3" fill="#DDA56F">
+      <animate attributeName="cy" values="166;184;166" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="230" y="187" width="100" height="27" rx="8" fill="#DDA56F" fill-opacity=".08" stroke="#DDA56F" stroke-opacity=".35"/>
+    <text x="280" y="204" text-anchor="middle" fill="#F0CCAA" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="8">lf.to/8xK2</text>
+    <text x="22" y="211" fill="#8594AA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">Java 21 · Spring Boot · MySQL · JWT</text>
+    <line x1="22" y1="230" x2="340" y2="230" stroke="#FFFFFF" stroke-opacity=".1"/>
+    <circle cx="24" cy="251" r="4" fill="#DDA56F" filter="url(#glow)">
+      <animate attributeName="opacity" values=".3;1;.3" dur="2.5s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="37" y="255" fill="#9AABC2" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="7" letter-spacing="1">BASE62 · SECURITY · ANALYTICS</text>
+  </g>
+</svg>

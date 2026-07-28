@@ -1,66 +1,65 @@
-<svg width="1200" height="310" viewBox="0 0 1200 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="panel" x1="48" y1="20" x2="1152" y2="290" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#111827"/>
-      <stop offset="1" stop-color="#17172A"/>
+    <linearGradient id="panel" x1="20" y1="12" x2="1180" y2="318" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1120"/>
+      <stop offset=".55" stop-color="#10182B"/>
+      <stop offset="1" stop-color="#111126"/>
     </linearGradient>
-    <linearGradient id="accent" x1="70" y1="0" x2="1130" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="0.5" stop-color="#8B5CF6"/>
-      <stop offset="1" stop-color="#F472B6"/>
+    <linearGradient id="signal" x1="50" y1="0" x2="1150" y2="0">
+      <stop stop-color="#78A9FF"/>
+      <stop offset=".55" stop-color="#8D82EA"/>
+      <stop offset="1" stop-color="#DDA56F"/>
     </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0V46" stroke="#B2CAFF" stroke-opacity=".055"/>
+    </pattern>
   </defs>
+  <rect x="1" y="1" width="1198" height="328" rx="25" fill="url(#panel)" stroke="#90B4FF" stroke-opacity=".23" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="328" rx="25" fill="url(#grid)"/>
+  <text x="50" y="56" fill="#78A9FF" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="2">CONNECTED PRACTICE / 04 SYSTEMS</text>
+  <text x="50" y="94" fill="#F5F7FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="720">One product mind. Every layer.</text>
+  <text x="50" y="122" fill="#8796AC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">I work where interface decisions meet API boundaries, data models, and production delivery.</text>
 
-  <rect x="1" y="1" width="1198" height="308" rx="24" fill="url(#panel)" stroke="#334155" stroke-width="2"/>
-  <rect x="48" y="42" width="1104" height="4" rx="2" fill="url(#accent)"/>
-  <circle cx="48" cy="44" r="7" fill="#22D3EE">
-    <animate attributeName="cx" values="48;1152;48" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="fill" values="#22D3EE;#8B5CF6;#F472B6;#22D3EE" dur="8s" repeatCount="indefinite"/>
-  </circle>
-
-  <text x="58" y="88" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="700">
-    How I turn ideas into working software
-  </text>
-  <text x="58" y="119" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">
-    From secure services to responsive interfaces and production delivery.
-  </text>
-
-  <g transform="translate(58 151)">
-    <rect width="332" height="112" rx="18" fill="#0F172A" stroke="#164E63"/>
-    <circle cx="34" cy="34" r="14" fill="#22D3EE" fill-opacity="0.18"/>
-    <circle cx="34" cy="34" r="14" fill="none" stroke="#22D3EE" stroke-opacity="0.45">
-      <animate attributeName="r" values="14;23;14" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-opacity" values="0.45;0;0.45" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <path d="M28 34H40M34 28V40" stroke="#67E8F9" stroke-width="2.4" stroke-linecap="round"/>
-    <text x="60" y="40" fill="#67E8F9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Backend</text>
-    <text x="24" y="74" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Secure APIs · Auth · Data modeling</text>
-    <text x="24" y="97" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Java · Spring Boot · PostgreSQL</text>
+  <g transform="translate(50 155)">
+    <rect width="252" height="126" rx="18" fill="#FFFFFF" fill-opacity=".035" stroke="#78A9FF" stroke-opacity=".25"/>
+    <text x="20" y="28" fill="#78A9FF" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="8" letter-spacing="1.3">01 / INTERFACES</text>
+    <text x="20" y="62" fill="#EEF3FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Responsive UX</text>
+    <text x="20" y="88" fill="#8796AC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">React • Next.js • TypeScript</text>
+    <rect x="20" y="106" width="144" height="3" rx="2" fill="#78A9FF" fill-opacity=".24"/>
+    <rect x="20" y="106" width="72" height="3" rx="2" fill="#78A9FF">
+      <animate attributeName="width" values="40;124;72;40" dur="5s" repeatCount="indefinite"/>
+    </rect>
   </g>
-
-  <g transform="translate(434 151)">
-    <rect width="332" height="112" rx="18" fill="#0F172A" stroke="#5B21B6"/>
-    <circle cx="34" cy="34" r="14" fill="#8B5CF6" fill-opacity="0.2"/>
-    <circle cx="34" cy="34" r="14" fill="none" stroke="#8B5CF6" stroke-opacity="0.45">
-      <animate attributeName="r" values="14;23;14" dur="3s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-opacity" values="0.45;0;0.45" dur="3s" begin="1s" repeatCount="indefinite"/>
+  <g transform="translate(319 155)">
+    <rect width="252" height="126" rx="18" fill="#FFFFFF" fill-opacity=".035" stroke="#78A9FF" stroke-opacity=".25"/>
+    <text x="20" y="28" fill="#78A9FF" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="8" letter-spacing="1.3">02 / SYSTEMS</text>
+    <text x="20" y="62" fill="#EEF3FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Secure services</text>
+    <text x="20" y="88" fill="#8796AC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Java • Spring Boot • JWT</text>
+    <circle cx="218" cy="28" r="5" fill="#78A9FF" filter="url(#glow)">
+      <animate attributeName="opacity" values=".3;1;.3" dur="2.4s" repeatCount="indefinite"/>
     </circle>
-    <path d="M27 29H41V39H27V29Z" stroke="#C4B5FD" stroke-width="2"/>
-    <text x="60" y="40" fill="#C4B5FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Frontend</text>
-    <text x="24" y="74" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Responsive UX · State · Integration</text>
-    <text x="24" y="97" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">React · TypeScript · Next.js</text>
   </g>
-
-  <g transform="translate(810 151)">
-    <rect width="332" height="112" rx="18" fill="#0F172A" stroke="#9D174D"/>
-    <circle cx="34" cy="34" r="14" fill="#F472B6" fill-opacity="0.18"/>
-    <circle cx="34" cy="34" r="14" fill="none" stroke="#F472B6" stroke-opacity="0.45">
-      <animate attributeName="r" values="14;23;14" dur="3s" begin="2s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-opacity" values="0.45;0;0.45" dur="3s" begin="2s" repeatCount="indefinite"/>
+  <g transform="translate(588 155)">
+    <rect width="252" height="126" rx="18" fill="#FFFFFF" fill-opacity=".035" stroke="#8D82EA" stroke-opacity=".28"/>
+    <text x="20" y="28" fill="#AFA7F5" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="8" letter-spacing="1.3">03 / DATA</text>
+    <text x="20" y="62" fill="#EEF3FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Useful models</text>
+    <text x="20" y="88" fill="#8796AC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">PostgreSQL • MySQL • Analytics</text>
+    <path d="M199 29H228M199 38H220M199 47H212" stroke="#8D82EA" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="stroke-opacity" values=".3;1;.3" dur="3s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g transform="translate(857 155)">
+    <rect width="293" height="126" rx="18" fill="#FFFFFF" fill-opacity=".035" stroke="#DDA56F" stroke-opacity=".28"/>
+    <text x="20" y="28" fill="#E3B98E" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="8" letter-spacing="1.3">04 / DELIVERY</text>
+    <text x="20" y="62" fill="#EEF3FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Production paths</text>
+    <text x="20" y="88" fill="#8796AC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Docker • Cloudflare • Render</text>
+    <circle cx="256" cy="31" r="12" stroke="#DDA56F" stroke-opacity=".6">
+      <animate attributeName="r" values="8;18;8" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".65;0;.65" dur="3s" repeatCount="indefinite"/>
     </circle>
-    <path d="M27 38L33 32L37 36L43 28" stroke="#F9A8D4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="60" y="40" fill="#F9A8D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Delivery</text>
-    <text x="24" y="74" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Testing · Containers · Deployment</text>
-    <text x="24" y="97" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Docker · Cloudflare · Render</text>
   </g>
+  <path d="M50 303H1150" stroke="url(#signal)" stroke-width="2" stroke-dasharray="120 980">
+    <animate attributeName="stroke-dashoffset" values="1100;-1100" dur="6s" repeatCount="indefinite"/>
+  </path>
 </svg>

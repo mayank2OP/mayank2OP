@@ -1,99 +1,113 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="80" y1="20" x2="1120" y2="340" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1020"/>
-      <stop offset="0.5" stop-color="#111936"/>
+    <linearGradient id="bg" x1="38" y1="18" x2="1170" y2="412" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080D18"/>
+      <stop offset=".52" stop-color="#0B1325"/>
       <stop offset="1" stop-color="#10142A"/>
     </linearGradient>
-    <linearGradient id="accent" x1="196" y1="75" x2="958" y2="298" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE">
-        <animate attributeName="stop-color" values="#22D3EE;#60A5FA;#22D3EE" dur="5s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="0.48" stop-color="#8B5CF6">
-        <animate attributeName="stop-color" values="#8B5CF6;#D946EF;#8B5CF6" dur="6s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="1" stop-color="#F472B6">
-        <animate attributeName="stop-color" values="#F472B6;#FB7185;#F472B6" dur="5s" repeatCount="indefinite"/>
-      </stop>
+    <linearGradient id="edge" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#78A9FF"/>
+      <stop offset=".52" stop-color="#8D82EA"/>
+      <stop offset="1" stop-color="#DDA56F"/>
     </linearGradient>
-    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1032 72) rotate(136) scale(368 270)">
-      <stop stop-color="#7C3AED" stop-opacity="0.48"/>
-      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(913 204) rotate(90) scale(244)">
+      <stop stop-color="#345FA7" stop-opacity=".45"/>
+      <stop offset=".52" stop-color="#1A315E" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#080D18" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(142 328) rotate(-38) scale(403 283)">
-      <stop stop-color="#0891B2" stop-opacity="0.42"/>
-      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    <radialGradient id="coreGlow">
+      <stop stop-color="#78A9FF" stop-opacity=".55"/>
+      <stop offset=".3" stop-color="#78A9FF" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#78A9FF" stop-opacity="0"/>
     </radialGradient>
-    <filter id="blur" x="-80" y="-80" width="1360" height="520" filterUnits="userSpaceOnUse">
-      <feGaussianBlur stdDeviation="38"/>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="30"/>
     </filter>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#A8C5FF" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
   </defs>
 
-  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
-  <g filter="url(#blur)">
-    <ellipse cx="1032" cy="72" rx="300" ry="210" fill="url(#glowA)"/>
-    <ellipse cx="142" cy="328" rx="332" ry="224" fill="url(#glowB)"/>
+  <rect width="1200" height="430" rx="30" fill="url(#bg)"/>
+  <rect width="1200" height="430" rx="30" fill="url(#grid)"/>
+  <ellipse cx="913" cy="204" rx="304" ry="260" fill="url(#blueGlow)"/>
+  <ellipse cx="84" cy="416" rx="280" ry="155" fill="#273E78" fill-opacity=".14" filter="url(#blur)"/>
+
+  <g opacity=".5">
+    <path d="M42 73H1158" stroke="#BBD1FF" stroke-opacity=".12"/>
+    <path d="M42 356H1158" stroke="#BBD1FF" stroke-opacity=".12"/>
+    <path d="M681 42V388" stroke="#BBD1FF" stroke-opacity=".12"/>
   </g>
 
-  <g opacity="0.14" stroke="#A5B4FC">
-    <path d="M0 74H1200"/>
-    <path d="M0 286H1200"/>
-    <path d="M146 0V360"/>
-    <path d="M1054 0V360"/>
+  <g transform="translate(56 52)">
+    <rect width="46" height="46" rx="14" fill="#78A9FF" fill-opacity=".12" stroke="#78A9FF" stroke-opacity=".4"/>
+    <text x="23" y="30" text-anchor="middle" fill="#EAF1FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="800">MR</text>
+    <text x="62" y="20" fill="#F5F7FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">MAYANK RAWAT</text>
+    <text x="62" y="39" fill="#8494AE" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="9" letter-spacing="1.5">FULL-STACK DEVELOPER / INDIA</text>
   </g>
 
-  <circle cx="92" cy="78" r="7" fill="#22D3EE">
-    <animate attributeName="r" values="7;11;7" dur="2.8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0.55;1" dur="2.8s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="1130" cy="282" r="7" fill="#F472B6">
-    <animate attributeName="r" values="7;11;7" dur="2.8s" begin="1.4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0.55;1" dur="2.8s" begin="1.4s" repeatCount="indefinite"/>
-  </circle>
-  <path d="M78 101H218" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-dasharray="140" stroke-dashoffset="140">
-    <animate attributeName="stroke-dashoffset" values="140;0;0" keyTimes="0;0.55;1" dur="2.8s" repeatCount="indefinite"/>
+  <g transform="translate(57 147)">
+    <text fill="#78A9FF" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="2.1">DESIGNING USEFUL SOFTWARE WITH A PULSE</text>
+    <text y="63" fill="#F6F8FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="57" font-weight="720" letter-spacing="-2.4">Digital systems</text>
+    <text y="119" fill="#9AB9F5" font-family="Georgia,serif" font-size="55" font-style="italic" letter-spacing="-1.8">with gravity.</text>
+    <text y="168" fill="#9AA8BB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">Interfaces, secure APIs, data, and delivery — engineered as one system.</text>
+  </g>
+
+  <g transform="translate(57 350)">
+    <circle cx="6" cy="6" r="4" fill="#78A9FF" filter="url(#softGlow)">
+      <animate attributeName="opacity" values=".45;1;.45" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="20" y="10" fill="#A9B8CE" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="9" letter-spacing="1.4">AVAILABLE FOR SOFTWARE ENGINEERING OPPORTUNITIES</text>
+  </g>
+
+  <g transform="translate(908 210)">
+    <circle r="176" fill="url(#coreGlow)" opacity=".35"/>
+    <circle r="165" stroke="#78A9FF" stroke-opacity=".16"/>
+    <circle r="128" stroke="#78A9FF" stroke-opacity=".25" stroke-dasharray="5 8">
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="42s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="91" stroke="#8D82EA" stroke-opacity=".3" stroke-dasharray="3 7">
+      <animateTransform attributeName="transform" type="rotate" values="360;0" dur="30s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="57" fill="#0B152A" fill-opacity=".82" stroke="#9AB9F5" stroke-opacity=".42"/>
+    <circle r="48" stroke="#78A9FF" stroke-opacity=".12">
+      <animate attributeName="r" values="43;52;43" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".08;.35;.08" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <text y="-5" text-anchor="middle" fill="#F6F8FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800">MR</text>
+    <text y="17" text-anchor="middle" fill="#7F91AC" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="7" letter-spacing="1.2">CONNECTED PRACTICE</text>
+
+    <g transform="translate(132 -68)">
+      <circle r="26" fill="#101B31" stroke="#78A9FF" stroke-opacity=".55"/>
+      <circle r="4" fill="#78A9FF" filter="url(#softGlow)">
+        <animate attributeName="r" values="3;6;3" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <text y="3" text-anchor="middle" fill="#EAF1FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="9" font-weight="700">SS</text>
+      <text y="42" text-anchor="middle" fill="#8EA1BC" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="7">SPENDSNAP</text>
+    </g>
+    <g transform="translate(-123 -83)">
+      <circle r="26" fill="#15162E" stroke="#8D82EA" stroke-opacity=".58"/>
+      <text y="3" text-anchor="middle" fill="#EEEAFE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="9" font-weight="700">SP</text>
+      <text y="42" text-anchor="middle" fill="#958DBE" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="7">STOCKPILOT</text>
+    </g>
+    <g transform="translate(-23 158)">
+      <circle r="26" fill="#211A1B" stroke="#DDA56F" stroke-opacity=".55"/>
+      <text y="3" text-anchor="middle" fill="#F8EBDD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="9" font-weight="700">LF</text>
+      <text y="42" text-anchor="middle" fill="#B39A82" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="7">LINKFORGE</text>
+    </g>
+
+    <g>
+      <circle cx="0" cy="-128" r="4" fill="#78A9FF" filter="url(#softGlow)"/>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="11s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <path d="M42 390H1158" stroke="url(#edge)" stroke-width="2" stroke-linecap="round" stroke-dasharray="180 940">
+    <animate attributeName="stroke-dashoffset" values="1120;-1120" dur="7s" repeatCount="indefinite"/>
   </path>
-
-  <text x="78" y="162" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="750" letter-spacing="-1.8">
-    Mayank Rawat
-  </text>
-  <text x="81" y="207" fill="#C4B5FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="1.2">
-    FULL-STACK DEVELOPER · PROBLEM SOLVER
-    <animate attributeName="fill" values="#C4B5FD;#67E8F9;#F9A8D4;#C4B5FD" dur="7s" repeatCount="indefinite"/>
-  </text>
-  <text x="81" y="252" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21">
-    Building practical products across interfaces, APIs, data, and deployment.
-    <animate attributeName="opacity" values="0.55;1;1;0.55" keyTimes="0;0.2;0.8;1" dur="5s" repeatCount="indefinite"/>
-  </text>
-
-  <g transform="translate(80 286)">
-    <rect width="690" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.11"/>
-    <text x="22" y="26" fill="#E2E8F0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="0.6">
-      JAVA  •  SPRING BOOT  •  REACT  •  TYPESCRIPT  •  POSTGRESQL  •  PYTHON
-    </text>
-  </g>
-
-  <g transform="translate(918 113)">
-    <rect width="204" height="118" rx="22" fill="#FFFFFF" fill-opacity="0.055" stroke="url(#accent)" stroke-opacity="0.65"/>
-    <path d="M46 76L72 50L94 70L132 32L160 60" stroke="url(#accent)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="190" stroke-dashoffset="190">
-      <animate attributeName="stroke-dashoffset" values="190;0;0;190" keyTimes="0;0.38;0.78;1" dur="4.8s" repeatCount="indefinite"/>
-    </path>
-    <circle cx="46" cy="76" r="6" fill="#22D3EE">
-      <animate attributeName="r" values="6;9;6" dur="2.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="72" cy="50" r="6" fill="#67E8F9">
-      <animate attributeName="r" values="6;9;6" dur="2.2s" begin="0.35s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="94" cy="70" r="6" fill="#A78BFA">
-      <animate attributeName="r" values="6;9;6" dur="2.2s" begin="0.7s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="132" cy="32" r="6" fill="#C084FC">
-      <animate attributeName="r" values="6;9;6" dur="2.2s" begin="1.05s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="160" cy="60" r="6" fill="#F472B6">
-      <animate attributeName="r" values="6;9;6" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <rect x="1" y="1" width="1198" height="358" rx="27" stroke="url(#accent)" stroke-opacity="0.38" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="428" rx="29" stroke="url(#edge)" stroke-opacity=".42" stroke-width="2"/>
 </svg>
