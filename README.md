@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Mayank Rawat — Full-Stack Developer" width="100%" />
+  <img src="./assets/header.gif" alt="Mayank Rawat — Full-Stack Developer" width="100%" />
 </p>
 
 <p align="center">
@@ -99,7 +99,7 @@ I'm a full-stack developer focused on building useful, dependable products—not
 ## Engineering focus
 
 <p align="center">
-  <img src="./assets/engineering-focus.svg" alt="Backend, frontend, and product delivery engineering focus" width="100%" />
+  <img src="./assets/engineering-focus.gif" alt="Backend, frontend, and product delivery engineering focus" width="100%" />
 </p>
 
 ## Beyond projects
@@ -145,5 +145,5 @@ I'm a full-stack developer focused on building useful, dependable products—not
 </p>
 
 <p align="center">
-  <img src="./assets/footer.svg" alt="" width="100%" />
+  <img src="./assets/footer.gif" alt="" width="100%" />
 </p>
