@@ -1,0 +1,99 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="20" x2="1120" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.5" stop-color="#111936"/>
+      <stop offset="1" stop-color="#10142A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="196" y1="75" x2="958" y2="298" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE">
+        <animate attributeName="stop-color" values="#22D3EE;#60A5FA;#22D3EE" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.48" stop-color="#8B5CF6">
+        <animate attributeName="stop-color" values="#8B5CF6;#D946EF;#8B5CF6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#F472B6">
+        <animate attributeName="stop-color" values="#F472B6;#FB7185;#F472B6" dur="5s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1032 72) rotate(136) scale(368 270)">
+      <stop stop-color="#7C3AED" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(142 328) rotate(-38) scale(403 283)">
+      <stop stop-color="#0891B2" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-80" y="-80" width="1360" height="520" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <g filter="url(#blur)">
+    <ellipse cx="1032" cy="72" rx="300" ry="210" fill="url(#glowA)"/>
+    <ellipse cx="142" cy="328" rx="332" ry="224" fill="url(#glowB)"/>
+  </g>
+
+  <g opacity="0.14" stroke="#A5B4FC">
+    <path d="M0 74H1200"/>
+    <path d="M0 286H1200"/>
+    <path d="M146 0V360"/>
+    <path d="M1054 0V360"/>
+  </g>
+
+  <circle cx="92" cy="78" r="7" fill="#22D3EE">
+    <animate attributeName="r" values="7;11;7" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.55;1" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1130" cy="282" r="7" fill="#F472B6">
+    <animate attributeName="r" values="7;11;7" dur="2.8s" begin="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.55;1" dur="2.8s" begin="1.4s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M78 101H218" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-dasharray="140" stroke-dashoffset="140">
+    <animate attributeName="stroke-dashoffset" values="140;0;0" keyTimes="0;0.55;1" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+
+  <text x="78" y="162" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="750" letter-spacing="-1.8">
+    Mayank Rawat
+  </text>
+  <text x="81" y="207" fill="#C4B5FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="1.2">
+    FULL-STACK DEVELOPER · PROBLEM SOLVER
+    <animate attributeName="fill" values="#C4B5FD;#67E8F9;#F9A8D4;#C4B5FD" dur="7s" repeatCount="indefinite"/>
+  </text>
+  <text x="81" y="252" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21">
+    Building practical products across interfaces, APIs, data, and deployment.
+    <animate attributeName="opacity" values="0.55;1;1;0.55" keyTimes="0;0.2;0.8;1" dur="5s" repeatCount="indefinite"/>
+  </text>
+
+  <g transform="translate(80 286)">
+    <rect width="690" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.11"/>
+    <text x="22" y="26" fill="#E2E8F0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="0.6">
+      JAVA  •  SPRING BOOT  •  REACT  •  TYPESCRIPT  •  POSTGRESQL  •  PYTHON
+    </text>
+  </g>
+
+  <g transform="translate(918 113)">
+    <rect width="204" height="118" rx="22" fill="#FFFFFF" fill-opacity="0.055" stroke="url(#accent)" stroke-opacity="0.65"/>
+    <path d="M46 76L72 50L94 70L132 32L160 60" stroke="url(#accent)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="190" stroke-dashoffset="190">
+      <animate attributeName="stroke-dashoffset" values="190;0;0;190" keyTimes="0;0.38;0.78;1" dur="4.8s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="46" cy="76" r="6" fill="#22D3EE">
+      <animate attributeName="r" values="6;9;6" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="72" cy="50" r="6" fill="#67E8F9">
+      <animate attributeName="r" values="6;9;6" dur="2.2s" begin="0.35s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="94" cy="70" r="6" fill="#A78BFA">
+      <animate attributeName="r" values="6;9;6" dur="2.2s" begin="0.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="132" cy="32" r="6" fill="#C084FC">
+      <animate attributeName="r" values="6;9;6" dur="2.2s" begin="1.05s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="160" cy="60" r="6" fill="#F472B6">
+      <animate attributeName="r" values="6;9;6" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="358" rx="27" stroke="url(#accent)" stroke-opacity="0.38" stroke-width="2"/>
+</svg>
