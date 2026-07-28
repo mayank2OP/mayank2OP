@@ -11,6 +11,18 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://leetcode.com/u/mayank460/">
+    <img src="https://img.shields.io/badge/LeetCode-mayank460-FFA116?style=flat-square&logo=leetcode&logoColor=111827" alt="Mayank on LeetCode" />
+  </a>
+  <a href="https://www.geeksforgeeks.org/profile/mayankra39lx">
+    <img src="https://img.shields.io/badge/GeeksforGeeks-mayankra39lx-2F8D46?style=flat-square&logo=geeksforgeeks&logoColor=white" alt="Mayank on GeeksforGeeks" />
+  </a>
+  <a href="https://www.linkedin.com/in/mayank-rawat-540584286">
+    <img src="https://img.shields.io/badge/LinkedIn-Mayank_Rawat-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Mayank Rawat on LinkedIn" />
+  </a>
+</p>
+
 ## Hello, I'm Mayank
 
 I'm a full-stack developer focused on building useful, dependable products—not just demos. I enjoy turning an idea into the complete system: accessible interfaces, secure APIs, well-structured databases, automated tests, and production deployments.
@@ -90,6 +102,28 @@ I'm a full-stack developer focused on building useful, dependable products—not
   <img src="./assets/engineering-focus.svg" alt="Backend, frontend, and product delivery engineering focus" width="100%" />
 </p>
 
+## Beyond projects
+
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <h3>LeetCode</h3>
+      <p>Algorithmic problem solving and data-structure practice.</p>
+      <a href="https://leetcode.com/u/mayank460/"><strong>View profile →</strong></a>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>GeeksforGeeks</h3>
+      <p>Consistent practice across programming and interview topics.</p>
+      <a href="https://www.geeksforgeeks.org/profile/mayankra39lx"><strong>View profile →</strong></a>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>LinkedIn</h3>
+      <p>Experience, education, projects, and professional updates.</p>
+      <a href="https://www.linkedin.com/in/mayank-rawat-540584286"><strong>Connect →</strong></a>
+    </td>
+  </tr>
+</table>
+
 ---
 
 <p align="center">
@@ -98,6 +132,12 @@ I'm a full-stack developer focused on building useful, dependable products—not
 
 <p align="center">
   <a href="https://github.com/mayank2OP">GitHub</a>
+  ·
+  <a href="https://leetcode.com/u/mayank460/">LeetCode</a>
+  ·
+  <a href="https://www.geeksforgeeks.org/profile/mayankra39lx">GeeksforGeeks</a>
+  ·
+  <a href="https://www.linkedin.com/in/mayank-rawat-540584286">LinkedIn</a>
   ·
   <a href="https://app.spendsnap.workers.dev">SpendSnap</a>
   ·
